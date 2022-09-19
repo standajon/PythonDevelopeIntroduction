@@ -13,9 +13,16 @@ Tohle je hodne douhy text.
 Tohle je hodne douhy text.
 Tohle je hodne douhy text."""
 print(zprava3)
-
-
+#delka retezce
 print(len(zprava3))
 
-print(zprava[1])
+txt="     pes     "
+txtShort=txt.strip()
+print(txtShort)
+
+neco="AAAAAAAAAAAA"
+print(neco.lower())
+
+
+
 
