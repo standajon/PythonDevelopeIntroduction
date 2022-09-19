@@ -23,6 +23,21 @@ print(txtShort)
 neco="AAAAAAAAAAAA"
 print(neco.lower())
 
+#indexace konkretniho znaku
+textik = "Tohle je nejaka veta"
+print(textik[1])
 
+pozdrav = "Ahoj ahoj"
+print(pozdrav[0:4])
+
+#spocita vyskyt pismena
+print(pozdrav.count("o"))
+
+msg = "Ahoj"
+msg2 = "Stando"
+print(msg + " " + msg2)
+
+#dostuopne metody co se da s tim delat
+print(dir(msg))
 
 
